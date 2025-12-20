@@ -1,4 +1,4 @@
-# Electronics-Power-Consumption-Meter
+# Electronics Power Consumption Meter
 
 A power consumption meter based on Arduino Nano.  
 This project is a **work-in-progress**.

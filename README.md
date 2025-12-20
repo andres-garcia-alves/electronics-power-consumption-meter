@@ -22,6 +22,8 @@ This project use the following electronic components:
 - 1 x USB conector pair mini-USB (male/female)
 - 2 x DC conector-pair (male/female)
 
+&nbsp;
+
 How to use:
 - Conect this gadget between the device to measure and its power source.
 - Pressing the push-button changes the measure tu display: voltage (V), consumption (mA), or total power (W).
@@ -40,7 +42,7 @@ Features:
 
 | Schematics Diagram                              |  PCB Diagram                                    |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/03-schematics-diagram.jpg)        | ![](Resources/Resources/04-pcb-diagram.jpg)     |
+| ![](Resources/03-schematics-diagram.jpg)        | ![](Resources/04-pcb-diagram.jpg)               |
 
 | PCB Render 3D                                   | PCB Render 3D                                   |
 |-------------------------------------------------|-------------------------------------------------|

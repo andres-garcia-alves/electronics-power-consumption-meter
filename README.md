@@ -22,10 +22,13 @@ This project use the following electronic components:
 - 1 x USB conector pair mini-USB (male/female)
 - 2 x DC conector-pair (male/female)
 
-Features:
+How to use:
 - Conect this gadget between the device to measure and its power source.
 - Pressing the push-button changes the measure tu display: voltage (V), consumption (mA), or total power (W).
-- Max Specs: 0-26V, 3.2A
+
+Features:
+- Max specs: 0-26V, 3.2A
+- Accuracy: ~1mA
 
 &nbsp;
 

@@ -9,7 +9,7 @@ This project use the following electronic components:
 -  1 x Double sided copper clad board (10x11cms)
 -  1 x Arduino UNO / Nano v3
 -  1 x INA219 module
--  1 x 3461BS-1 display (4 digit, 7 segment display)
+-  1 x 3461BS-1 7-segment display (4 digit, common anode)
 -  3 x LED diodes
 - 11 x 470 ohm resistors
 -  1 x On/Off Button (optional)

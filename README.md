@@ -41,7 +41,7 @@ Notes:
 
 | Breadboard                                      | Assembly                                        |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/01-breadboard.jpg)                | ![](Resources/02-assembly.jpg)                  |
+| ![](Resources/01-breadboard-03.jpg)             | ![](Resources/02-assembly.jpg)                  |
 
 | Schematics Diagram                              |  PCB Diagram                                    |
 |-------------------------------------------------|-------------------------------------------------|

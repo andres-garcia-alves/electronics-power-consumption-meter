@@ -6,21 +6,23 @@ This project is a **work-in-progress**.
 &nbsp;
 
 This project use the following electronic components:
-- 1 x Double sided copper clad board (10x11cms)
-- 1 x Arduino UNO / Nano v3
-- 1 x INA219 module
-- 1 x 3461BS-1 display (4 digit, 7 segment multiplexed display)
-- 8 x 390 ohm resistors
-- 1 x On/Off Button
-- 1 x Switch Button (power selector)
-- 1 x 18650 Batery x2 holder / 1 x 9V Batery holder
-- 1 x DC conector (optional, externar power 5-12V)
-- 1 x Push Button (measure selector)
-- 4 x Bornier 2-pin
-- 1 x USB Type-A conector pair (male/female)
-- 1 x USB Type-B Mini conector pair (male/female)
-- 1 x USB Type-B Micro conector pair (male/female)
-- 2 x DC conector-pair (male/female)
+-  1 x Double sided copper clad board (10x11cms)
+-  1 x Arduino UNO / Nano v3
+-  1 x INA219 module
+-  1 x 3461BS-1 display (4 digit, 7 segment display)
+-  3 x LED diodes
+- 11 x 470 ohm resistors
+-  1 x On/Off Button (optional)
+-  1 x Switch Button (power selector)
+-  1 x Push Button (measure selector)
+-  1 x 18650 Batery x2 holder / 1 x 9V Batery holder
+-  1 x DC conector (optional, externar power 5-12V)
+-  1 x USB Type-A conector pair (male/female)
+-  1 x USB Type-B Mini conector pair (male/female)
+-  1 x USB Type-B Micro conector pair (male/female)
+-  2 x DC conector-pair (male/female)
+-  1 x Bornier 4-pin
+-  4 x Bornier 2-pin
 
 &nbsp;
 

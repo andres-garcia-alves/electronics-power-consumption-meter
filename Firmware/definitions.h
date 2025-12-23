@@ -23,23 +23,24 @@
 
 // other hardware
 #define PUSH_BTN          A0
-#define LED               A2
+#define LED_VOLTAGE       A1
+#define LED_CURRENT       A2
+#define LED_POWER         A3
 
 // miscellaneous
-#define DEBOUNCE_TIME     100
+#define DEBOUNCE_TIME     50
 
+// enumerations
+enum WorkingMode { VOLTAGE, CURRENT, POWER };
 
 // data structures
-struct MeasureData
+struct RawData
 {
   float busVoltage = 0;
   float shuntVoltage = 0;
   float loadVoltage = 0;
   float current = 0;
   float power = 0;
-} sensorMeasure;
-
-// enumerations
-enum eWorkingMode { VOLTAGE, CURRENT, POWER };
+};
 
 #endif

@@ -1,19 +1,17 @@
 #ifndef MEASUREMENTS_H
 #define MEASUREMENTS_H
-#include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_INA219.h>
-#include "definitions.h"
-#include "debug.h"
 
 #define MEASURE_TIMESPAN 2000
 
 Adafruit_INA219 ina219;
-MeasureData rawData;
-
+RawData rawData;
 unsigned long timeNow = 0;
-unsigned long timeLastMeasure = 0;
+unsigned long timeLastMeasure = -MEASURE_TIMESPAN;
 
+
+// initialization
 void measureInit()
 {
   // sensor INA219 initialization
@@ -27,7 +25,8 @@ void measureInit()
   ina219.setCalibration_16V_400mA(); // higher precision on volts and amps
 }
 
-MeasureData measureGetData()
+// gets current measure data (refresh every 2 segs)
+RawData measureGetRawData()
 {
   timeNow = millis();
   if (timeNow - timeLastMeasure < MEASURE_TIMESPAN) { return rawData; }
@@ -39,7 +38,7 @@ MeasureData measureGetData()
   rawData.current       = ina219.getCurrent_mA();
   rawData.power         = ina219.getPower_mW();
 
-  debugMeasure(rawData);
+  debugMeasureRawData(rawData);
   timeLastMeasure = millis();
 
   return rawData;

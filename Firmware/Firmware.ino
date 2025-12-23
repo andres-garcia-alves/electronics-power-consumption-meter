@@ -1,46 +1,31 @@
 #include "definitions.h"
+#include "debug.h"
 #include "display.h"
+#include "input.h"
 #include "measurements.h"
-
-MeasureData measureData;
-float valueNumber;
-eWorkingMode workingMode = VOLTAGE;
-
 
 void setup(void) 
 {
   debugInit();
   displayInit();
   measureInit();
-
-  pinMode(PUSH_BTN, INPUT_PULLUP);
-
-  pinMode(LED, OUTPUT);
-  digitalWrite(LED, HIGH);
+  inputInit();
 }
 
-void loop(void) 
+void loop(void)
 {
-  checkInput();
-  measureData = measureGetData();
-  valueNumber = processData(workingMode, measureData);
-  displayValueNumber(valueNumber);
+  processInput();
 
-  // bool asd = digitalRead(PUSH_BTN);
-  // delay(DEBOUNCE_TIME);
+  RawData rawData = measureGetRawData();
+  processData(rawData);
 }
 
-float processData(eWorkingMode workingMode, MeasureData measureData)
+void processData(RawData rawData)
 {
-  if (workingMode == VOLTAGE)       { return measureData.loadVoltage; }
-  else if (workingMode == CURRENT)  { return measureData.current; }
-  else if (workingMode == POWER)    { return measureData.power; }
-  else                              { return 0; }
-}
-
-void checkInput()
-{
-  bool  = digitalRead(PUSH_BTN);
-  Serial.println(v);
-  delay(1000);
+  WorkingMode workingMode = getWorkingMode();
+  
+  if (workingMode == VOLTAGE)       { displayNumber(rawData.loadVoltage, 2); }
+  else if (workingMode == CURRENT)  { displayNumber(rawData.current, 1); }
+  else if (workingMode == POWER)    { displayNumber(rawData.power, 1); }
+  else                              { displayBlank(); }
 }

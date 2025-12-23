@@ -64,6 +64,7 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 v1.0 (2025.12.20) - Initial release.  
 v1.1 (2025.12.21) - Adding schematics & PCB.  
 v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.  
+v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
 
 &nbsp;
 

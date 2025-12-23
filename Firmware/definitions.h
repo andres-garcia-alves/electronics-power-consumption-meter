@@ -22,10 +22,10 @@
 #define I2C_SDA           A4
 
 // other hardware
-#define PUSH_BTN          A0
-#define LED_VOLTAGE       A1
-#define LED_CURRENT       A2
-#define LED_POWER         A3
+#define LED_VOLTAGE       A0
+#define LED_CURRENT       A1
+#define LED_POWER         A2
+#define PUSH_BTN          A3
 
 // miscellaneous
 #define DEBOUNCE_TIME     50

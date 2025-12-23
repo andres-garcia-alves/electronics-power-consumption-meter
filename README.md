@@ -62,7 +62,7 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 ### Version History
 
 v1.0 (2025.12.20) - Initial release.  
-v1.1 (2025.12.20) - Adding schematics and PCB.  
+v1.1 (2025.12.22) - Adding schematics and PCB.  
 
 &nbsp;
 

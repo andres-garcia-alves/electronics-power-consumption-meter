@@ -49,9 +49,13 @@ Notes:
 |-------------------------------------------------|-------------------------------------------------|
 | ![](Resources/03-schematics-diagram.png)        | ![](Resources/04-pcb-diagram.png)               |
 
-| PCB Render 3D                                   | PCB Render 3D                                   |
+| PCB Render 3D - Version A                       | PCB Render 3D - Version A                       |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-render-3d-front.png)       | ![](Resources/06-pcb-render-3d-rear.png)        |
+| ![](Resources/05-pcb-render-3d-front-01.png)    | ![](Resources/06-pcb-render-3d-rear-01.png)     |
+
+| PCB Render 3D - Version B                       | PCB Render 3D - Version B                       |
+|-------------------------------------------------|-------------------------------------------------|
+| ![](Resources/05-pcb-render-3d-front-02.png)    | ![](Resources/06-pcb-render-3d-rear-02.png)     |
 
 | Case 3D Model                                   | Project Final                                   |
 |-------------------------------------------------|-------------------------------------------------|
@@ -67,6 +71,7 @@ v1.0 (2025.12.20) - Initial release.
 v1.1 (2025.12.21) - Adding schematics & PCB.  
 v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.  
 v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
+v1.4 (2025.12.25) - Adding PCB version 2 without baterry holder.  
 
 &nbsp;
 

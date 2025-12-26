@@ -72,6 +72,7 @@ v1.1 (2025.12.21) - Adding schematics & PCB.
 v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.  
 v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
 v1.4 (2025.12.25) - Adding PCB version 2 without baterry holder.  
+v1.5 (2025.12.26) - Adding case 3D model.  
 
 &nbsp;
 

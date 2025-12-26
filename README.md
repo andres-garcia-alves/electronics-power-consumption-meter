@@ -1,4 +1,4 @@
-# Electronics Power Consumption Meter
+# Power Consumption Meter
 
 A power consumption meter based on Arduino Nano.  
 This project is a **work-in-progress**.
@@ -9,7 +9,7 @@ This project use the following electronic components:
 -  1 x Double sided copper clad board (10x11cms)
 -  1 x Arduino UNO / Nano v3
 -  1 x INA219 module
--  1 x 3461BS-1 7-segment display (4 digit, common anode)
+-  1 x Display 3461BS-1, 7-segment, 4 digit, common anode
 -  3 x LED diodes
 - 11 x 470 ohm resistors
 -  1 x On/Off Button (optional)
@@ -23,8 +23,6 @@ This project use the following electronic components:
 -  2 x DC conector-pair (male/female)
 -  1 x Bornier 4-pin
 -  4 x Bornier 2-pin
-
-&nbsp;
 
 How to use:
 - Conect this gadget between the device to measure and its power source.

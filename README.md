@@ -31,11 +31,11 @@ How to use:
 - Pressing the push-button changes the measure tu display: voltage (V), consumption (mA), or total power (W).
 
 Features:
-- Input: 5-12V
+- Input: 7-12V
 - Measurements: 0-26V @3.2A (max), accuracy: ~1mA
 
 Notes:
-- Measure only one divece at a time, all power connectors intenally uses a common bus.
+- Measure only one device at a time, all power connectors intenally uses a common bus.
 
 &nbsp;
 
@@ -72,7 +72,7 @@ v1.1 (2025.12.21) - Adding schematics & PCB.
 v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.  
 v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
 v1.4 (2025.12.25) - Adding PCB version 2 without baterry holder.  
-v1.5 (2025.12.26) - Adding case 3D model.  
+v1.5 (2025.12.26) - Adding case 3D model, adding 'Stickers' folder.  
 
 &nbsp;
 

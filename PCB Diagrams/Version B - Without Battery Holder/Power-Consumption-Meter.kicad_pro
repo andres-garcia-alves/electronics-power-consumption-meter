@@ -430,7 +430,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Electronics-Power-Consumption-Meter.kicad_pro",
+    "filename": "Power-Consumption-Meter.kicad_pro",
     "version": 3
   },
   "net_settings": {

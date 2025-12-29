@@ -2,7 +2,7 @@
 #define DEBUG_H
 
 // enable/disable debuging
-#define DEBUG   true
+#define DEBUG   false     // false, true
 
 
 // initialization
@@ -19,6 +19,7 @@ void debugMessage(String msg)
 {
   #if DEBUG
   Serial.println(msg);
+  delay(100);
   #endif
 }
 

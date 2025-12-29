@@ -31,6 +31,7 @@ void processInput()
   btnMode = digitalRead(PUSH_BTN);
   if (btnMode == HIGH) { return; }
   delay(DEBOUNCE_TIME);
+  btnMode = digitalRead(PUSH_BTN);
   if (btnMode == HIGH) { return; }
 
   displayBlank();

@@ -3,10 +3,13 @@
 #include <Wire.h>
 #include <Adafruit_INA219.h>
 
-#define MEASURE_TIMESPAN 2000
+#define MEASURE_TIMESPAN 1000
 
 Adafruit_INA219 ina219;
+
 RawData rawData;
+bool inaPresent = false;
+
 unsigned long timeNow = 0;
 unsigned long timeLastMeasure = -MEASURE_TIMESPAN;
 
@@ -15,11 +18,12 @@ unsigned long timeLastMeasure = -MEASURE_TIMESPAN;
 void measureInit()
 {
   // sensor INA219 initialization
-  if (!ina219.begin()) {
-    debugMessage("Failed to find INA219 chip");
-    while (1) { delay(50); }
-  }
+  inaPresent = ina219.begin();
+  if (!inaPresent) { debugMessage("Failed to find INA219 chip"); return; }
 
+  rawData.isValid = true;
+
+  // calibration setup
   // ina219.setCalibration_32V_2A(); // default
   // ina219.setCalibration_32V_1A(); // higher precision on amps
   ina219.setCalibration_16V_400mA(); // higher precision on volts and amps
@@ -28,6 +32,10 @@ void measureInit()
 // gets current measure data (refresh every 2 segs)
 RawData measureGetRawData()
 {
+  // returns default data
+  if (!inaPresent) { return rawData; }
+
+  // new measure every 2 seconds
   timeNow = millis();
   if (timeNow - timeLastMeasure < MEASURE_TIMESPAN) { return rawData; }
 

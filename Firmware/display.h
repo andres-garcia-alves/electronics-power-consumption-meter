@@ -25,10 +25,17 @@ void displayNumber(float number, byte decimals)
   sevseg.refreshDisplay();
 }
 
-// cleans the display
+// display empty text
 void displayBlank()
 {
   sevseg.blank();
+  sevseg.refreshDisplay();
+}
+
+// display invalid text
+void displayInvalid()
+{
+  sevseg.setChars("----");
   sevseg.refreshDisplay();
 }
 

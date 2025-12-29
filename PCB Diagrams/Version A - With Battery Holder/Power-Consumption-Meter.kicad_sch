@@ -2196,14 +2196,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom:INA219_Module"
+		(symbol "Custom:INA219_Module_Adafruit"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
+			(property "Reference" "U3"
 				(at 0 15.24 0)
 				(effects
 					(font
@@ -2219,8 +2219,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Custom:INA219_Module"
-				(at -44.704 -21.082 0)
+			(property "Footprint" "Custom:INA219_Module_Generic"
+				(at -19.304 -23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 				)
 			)
 			(property "MP" "INA219"
-				(at -52.324 -18.542 0)
+				(at -26.924 -20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2258,7 +2258,7 @@
 				)
 			)
 			(property "SNAPEDA_PN" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max - STEMMA QT"
-				(at -17.272 -23.876 0)
+				(at 8.128 -25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA219_Module_0_0"
+			(symbol "INA219_Module_Adafruit_0_0"
 				(rectangle
 					(start -10.16 10.16)
 					(end 10.16 -10.16)
@@ -2280,7 +2280,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 5.08 0)
+					(at -15.24 -2.54 0)
 					(length 5.08)
 					(name "VIN+"
 						(effects
@@ -2298,7 +2298,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 2.54 0)
+					(at -15.24 -5.08 0)
 					(length 5.08)
 					(name "VIN-"
 						(effects
@@ -2388,19 +2388,36 @@
 					)
 				)
 			)
-			(symbol "INA219_Module_1_0"
-				(pin no_connect line
-					(at 15.24 -5.08 180)
+			(symbol "INA219_Module_Adafruit_1_0"
+				(pin free line
+					(at -15.24 5.08 0)
 					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
+					(name "VIN+"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "SH1"
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5033,16 +5050,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 48.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117cbdad-e172-4449-b07c-907c45e3d679")
-	)
-	(wire
-		(pts
 			(xy 101.6 58.42) (xy 101.6 55.88)
 		)
 		(stroke
@@ -5833,16 +5840,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb71525-6679-4de1-a040-6a8901753189")
-	)
-	(wire
-		(pts
 			(xy 110.49 57.15) (xy 110.49 60.96)
 		)
 		(stroke
@@ -5923,6 +5920,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 50.8) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2671c67-efb2-4366-8d2f-e2639fd8f380")
+	)
+	(wire
+		(pts
 			(xy 97.79 55.88) (xy 97.79 58.42)
 		)
 		(stroke
@@ -5950,6 +5957,16 @@
 			(type default)
 		)
 		(uuid "c6e90000-5d08-4c32-8d7b-5956bcb66ec8")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7731f15-9a6b-41d4-bcd3-d13d6365c636")
 	)
 	(wire
 		(pts
@@ -6377,50 +6394,6 @@
 			)
 		)
 	)
-	(global_label "VIN+"
-		(shape input)
-		(at 45.72 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ab68410-36df-4d6b-ae4e-6d7d03233e31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN-"
-		(shape input)
-		(at 45.72 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c018903-f28f-43a3-b122-8c6eb8a33130")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1385 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SEG_G"
 		(shape input)
 		(at 156.21 68.58 0)
@@ -6461,6 +6434,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN-"
+		(shape input)
+		(at 45.72 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "397c57af-290b-4ed3-b68e-7102e3cbfbf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1385 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6571,6 +6566,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN+"
+		(shape input)
+		(at 45.72 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68ea0412-e12b-47b6-970d-25f3cac86aae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1385 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7908,8 +7925,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55d8c62a-83ef-482e-b6ae-d4fbbfee72cd")
-		(property "Reference" "A1"
-			(at 143.256 66.548 90)
+		(property "Reference" "U1"
+			(at 139.192 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7935,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 140.462 58.42 90)
+			(at 141.732 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8064,7 @@
 		(instances
 			(project ""
 				(path "/04a21a1e-c762-45c9-8522-5107851ca11f"
-					(reference "A1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8847,109 +8864,6 @@
 			(project "Electronics-Power-Consumption-Meter"
 				(path "/04a21a1e-c762-45c9-8522-5107851ca11f"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:INA219_Module")
-		(at 63.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89d47e6b-a026-4709-828a-f28eee5b2349")
-		(property "Reference" "U1"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA219_Module"
-			(at 63.754 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:INA219_Module_Adafruit"
-			(at 18.796 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "INA219"
-			(at 11.176 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max - STEMMA QT"
-			(at 46.228 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fc2c97e7-3dca-4ddd-9500-c343a8a08b48")
-		)
-		(pin "3"
-			(uuid "f6a7fcf7-4e39-4d5b-a09f-84d28abbebb7")
-		)
-		(pin "5"
-			(uuid "cd8a9478-017c-4642-959f-96118b44564a")
-		)
-		(pin "6"
-			(uuid "562f1414-7f40-4837-8f10-2b42e27a3cdd")
-		)
-		(pin "1"
-			(uuid "5d1e5e2c-aa4a-4ae3-b0f5-b243d7ea7c66")
-		)
-		(pin "SH1"
-			(uuid "9037a4c3-7a50-43e5-82fc-850d403df2a8")
-		)
-		(pin "2"
-			(uuid "c81634c1-bda2-44c2-b4d5-acfd50694612")
-		)
-		(instances
-			(project ""
-				(path "/04a21a1e-c762-45c9-8522-5107851ca11f"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10011,6 +9925,113 @@
 			(project "Electronics-Power-Consumption-Meter"
 				(path "/04a21a1e-c762-45c9-8522-5107851ca11f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:INA219_Module_Adafruit")
+		(at 63.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd96e6c-d46f-494e-a45b-c23bcbb23368")
+		(property "Reference" "U3"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219_Module"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:INA219_Module_Generic"
+			(at 44.196 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219"
+			(at 36.576 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max - STEMMA QT"
+			(at 71.628 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2523c8a2-d460-49c6-a449-1a157e20fee0")
+		)
+		(pin "5"
+			(uuid "451d3c87-8c17-43b1-808d-8c8252e6f05f")
+		)
+		(pin "1"
+			(uuid "93a9c7a5-1742-4349-94c8-12a93b356ae0")
+		)
+		(pin "3"
+			(uuid "62513135-2af0-43ab-96d4-d5c0f0038944")
+		)
+		(pin "4"
+			(uuid "50755e4f-b689-4745-86e9-bec077134bd0")
+		)
+		(pin "7"
+			(uuid "98f734ab-e54b-448e-a034-5c88ec04f8ac")
+		)
+		(pin "8"
+			(uuid "cb5ca229-5dbe-4e17-b30f-5df0baeea892")
+		)
+		(pin "2"
+			(uuid "41ccbba9-5b47-4256-ab57-10b1c49a101d")
+		)
+		(instances
+			(project ""
+				(path "/04a21a1e-c762-45c9-8522-5107851ca11f"
+					(reference "U3")
 					(unit 1)
 				)
 			)

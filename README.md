@@ -49,23 +49,23 @@ Notes:
 
 | Breadboard                                      | Assembly                                        |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/01-breadboard-03.jpg)             | ![](Resources/02-assembly.jpg)                  |
+| ![](Resources/01-breadboard-03.jpg)             | ![](Resources/03-assembly-02.jpg)               |
 
 | Schematics Diagram (ver. A)                     | PCB Diagram (ver. A)                            |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/03-schematics-diagram.png)        | ![](Resources/04-pcb-diagram.png)               |
+| ![](Resources/04-schematics-diagram.png)        | ![](Resources/05-pcb-diagram.png)               |
 
 | PCB Render 3D (ver. A)                          | PCB Render 3D (ver. A)                          |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-render-3d-front-01.png)    | ![](Resources/06-pcb-render-3d-rear-01.png)     |
+| ![](Resources/06-pcb-render-3d-front-01.png)    | ![](Resources/06-pcb-render-3d-rear-01.png)     |
 
 | PCB Render 3D (ver. B)                          | PCB Render 3D (ver. B)                          |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-render-3d-front-02.png)    | ![](Resources/06-pcb-render-3d-rear-02.png)     |
+| ![](Resources/06-pcb-render-3d-front-02.png)    | ![](Resources/07-pcb-render-3d-rear-02.png)     |
 
 | Case 3D Model                                   | Project Final                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/07-case-3d-model.jpg)             | ![](Resources/08-proyect-final.jpg)             |
+| ![](Resources/08-case-3d-model.jpg)             | ![](Resources/09-proyect-final.jpg)             |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
@@ -79,6 +79,7 @@ v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.
 v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
 v1.4 (2025.12.25) - Adding PCB version 2 without baterry holder.  
 v1.5 (2025.12.26) - Adding case 3D model, adding 'Stickers' folder.  
+v1.6 (2025.12.29) - Adding PCB building and assembly pictures.
 
 &nbsp;
 

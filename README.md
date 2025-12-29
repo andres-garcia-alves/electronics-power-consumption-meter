@@ -6,34 +6,42 @@ This project is a **work-in-progress**.
 &nbsp;
 
 This project use the following electronic components:
--  1 x Double sided copper clad board (10x11cms)
--  1 x Arduino UNO / Nano v3
--  1 x INA219 module
--  1 x Display 3461BS-1, 7-segment, 4 digit, common anode
--  3 x LED diodes
+- 01 x Double sided copper clad board (9x10cms)
+- 01 x Arduino UNO / 01 x Arduino Nano v3
+- 01 x Arduino socket (optional, 2x15)
+- 01 x INA219 module
+- 01 x INA219 socket (optional, 1x6)
+- 01 x Display 5641BS, 7-segment, 4 digit, common anode
+- 01 x Display socket (optional, 2x6)
 - 11 x 470 ohm resistors
--  1 x On/Off Button (optional)
--  1 x Switch Button (power selector)
--  1 x Push Button (measure selector)
--  1 x 18650 Batery x2 holder / 1 x 9V Batery holder
--  1 x DC conector (optional, externar power 5-12V)
--  1 x USB Type-A conector pair (male/female)
--  1 x USB Type-B Mini conector pair (male/female)
--  1 x USB Type-B Micro conector pair (male/female)
--  2 x DC conector-pair (male/female)
--  1 x Bornier 4-pin
--  4 x Bornier 2-pin
+- 03 x LED diodes
+- 01 x Rocker Button (optional, power on/off) / 01 x Jumper
+- 01 x Switch Slide Button (power source selector)
+- 01 x Switch Push Button (measure selector)
+- 01 x 18650 (x2) batery holder / 01 x 9V Batery holder
+- 01 x DC-jack connector (optional, externar power 5-12V)
+- 01 x USB Type-A connector pair (male/female)
+- 01 x USB Type-B Mini connector pair (male/female)
+- 01 x USB Type-B Micro connector pair (male/female)
+- 02 x DC connector-pair (male/female)
+- 01 x Bornier 4-pin / 01 x JST conector 4-pin
+- 04 x Bornier 2-pin / 02 x JST conector 2-pin
 
 How to use:
 - Conect this gadget between the device to measure and its power source.
-- Pressing the push-button changes the measure tu display: voltage (V), consumption (mA), or total power (W).
+- Pressing the push-button changes the measure tu display: voltage (V), consumption (mA), or total power (mW).
 
 Features:
-- Input: 7-12V
-- Measurements: 0-26V @3.2A (max), accuracy: ~1mA
+- Power input: 7-12V
+- Measurements: 0-26V @3.2A (max)
+- Accuracy: 0.01V, ~1mA, ~1mW
 
 Notes:
 - Measure only one device at a time, all power connectors intenally uses a common bus.
+- Internal connections:
+  - USB-A: power + data
+  - USB-B mini/micro: power-only
+  - DC-Jacks: power-only
 
 &nbsp;
 

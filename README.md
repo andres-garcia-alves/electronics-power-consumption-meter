@@ -51,15 +51,15 @@ Notes:
 |-------------------------------------------------|-------------------------------------------------|
 | ![](Resources/01-breadboard-03.jpg)             | ![](Resources/03-assembly-02.jpg)               |
 
-| Schematics Diagram (ver. A)                     | PCB Diagram (ver. A)                            |
+| Version A - Schematics Diagram                  | Version A - PCB Diagram                         |
 |-------------------------------------------------|-------------------------------------------------|
 | ![](Resources/04-schematics-diagram.png)        | ![](Resources/05-pcb-diagram.png)               |
 
-| PCB Render 3D (ver. A)                          | PCB Render 3D (ver. A)                          |
+| Version A - PCB Render 3D                       | Version A - PCB Render 3D                       |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/06-pcb-render-3d-front-01.png)    | ![](Resources/06-pcb-render-3d-rear-01.png)     |
+| ![](Resources/06-pcb-render-3d-front-01.png)    | ![](Resources/07-pcb-render-3d-rear-01.png)     |
 
-| PCB Render 3D (ver. B)                          | PCB Render 3D (ver. B)                          |
+| Version B - PCB Render 3D                       | Version B - PCB Render 3D                       |
 |-------------------------------------------------|-------------------------------------------------|
 | ![](Resources/06-pcb-render-3d-front-02.png)    | ![](Resources/07-pcb-render-3d-rear-02.png)     |
 

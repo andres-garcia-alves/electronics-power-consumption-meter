@@ -3,6 +3,10 @@
 A power consumption meter based on Arduino Nano.  
 This project is a **work-in-progress**.
 
+Two PCB versions are provided:
+- Version A - With Battery Holder
+- Version B - Without Battery Holder
+
 &nbsp;
 
 This project use the following electronic components:
@@ -74,12 +78,13 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 ### Version History
 
 v1.0 (2025.12.20) - Initial release.  
-v1.1 (2025.12.21) - Adding schematics & PCB.  
-v1.2 (2025.12.22) - Update schematics & PCB, adding firmware base code.  
-v1.3 (2025.12.23) - Update schematics & PCB, update firmware.  
-v1.4 (2025.12.25) - Adding PCB version 2 without baterry holder.  
-v1.5 (2025.12.26) - Adding case 3D model, adding 'Stickers' folder.  
-v1.6 (2025.12.29) - Adding PCB building and assembly pictures.
+v1.1 (2025.12.21) - Version A: adding PCB schematics and layout.  
+v1.2 (2025.12.22) - Version A: update PCB schematics and layout, adding firmware base code.  
+v1.3 (2025.12.23) - Version A: update PCB schematics and layout, update firmware.  
+v1.4 (2025.12.25) - Version B: adding PCB schematics and layout.  
+v1.5 (2025.12.26) - Version A: adding case 3D model, adding 'Stickers' folder.  
+v1.6 (2025.12.29) - Adding PCB building and assembly pictures.  
+v1.7 (2026.01.27) - Version B: adding case 3D model.  
 
 &nbsp;
 

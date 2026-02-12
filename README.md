@@ -85,7 +85,8 @@ v1.4 (2025.12.25) - Version B: adding PCB schematics and layout.
 v1.5 (2025.12.26) - Version A: adding case 3D model, adding 'Stickers' folder.  
 v1.6 (2025.12.29) - Adding PCB building and assembly pictures.  
 v1.7 (2026.01.27) - Version B: adding case 3D model.  
-v1.8 (2026.02.10) - Version B: minor case 3D model improvements.  
+v1.8 (2026.02.11) - Version B: minor case 3D model improvements.  
+v1.9 (2026.02.12) - Update 'README.md'.  
 
 &nbsp;
 
